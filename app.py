@@ -13,9 +13,9 @@ st.set_page_config(page_title="2034 Network Optimization", layout="wide")
 st.title("🇭🇺2024-2034 Hungary's electronic waste recycling network optimization.Dynamic addressing simulator based on P-Graph core algorithm.")
 st.markdown("The evolution of national recycling hubs was observed by adjusting fixed costs and transportation unit prices.")
 
-# ==========================================
+# =========================================
 # 2. 侧边栏：核心参数控制 (UI 调整)
-# ==========================================
+# =========================================
 st.sidebar.header("⚙️ Economic Parameters")
 
 # 1. Fixed Cost (对应原 Government Subsidy 位置)
