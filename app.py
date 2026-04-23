@@ -60,7 +60,7 @@ df = df_base.copy()
 df['Current_Waste'] = df['Waste_2024'] * ((1 + growth_rate) ** (target_year - 2024))
 
 # ==========================================
-# 4. P-Median 核心优化算法
+# 4. P-graph 核心优化算法
 # ==========================================
 def solve_p_median(df_in, k, f_cost, t_unit_cost):
     sources = df_in[['Lat', 'Lon']].values
